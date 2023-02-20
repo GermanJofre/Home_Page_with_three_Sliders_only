@@ -14,7 +14,6 @@ public class ProyectoBasicoSteps extends PageSteps {
     @When("Como usuario busco referencias a (.*)$")
     public void busqueda(String juego) {
         ProyectoBasicoServices.busqueda(juego);
-        //ProyectoBasicoServices.click();
     }
 
     @Then("El buscador muestra los siguientes resultados (.*)$")
