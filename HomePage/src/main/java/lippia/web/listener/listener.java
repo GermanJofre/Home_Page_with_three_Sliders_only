@@ -1,4 +1,4 @@
-package lippia.web.services;
+package lippia.web.listener;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.events.WebDriverEventListener;
 
-public class Listener implements WebDriverEventListener {
+public class listener implements WebDriverEventListener {
 
     @Override
     public void beforeAlertAccept(WebDriver webDriver) {

@@ -1,6 +1,6 @@
 Feature: As a potential client I want to navigate in https://practice.automationtesting.in
 
-  @Smoke @WathThreeSliders
+  @Smoke @WatchThreeSliders
   Scenario: The client want watch three sliders
     Given The client is in the main page
     When The client do want click on shop menu
